@@ -1,0 +1,65 @@
+<style type="text/css">
+  .scrollable-area__section-item table td {
+    width: unset;
+    padding: 6px 12px;
+  }
+
+  @media (min-width: 30em) {
+    .o-grid--2up .o-grid__item {
+      width: 100%;
+    }
+  }
+
+  @media (min-width: 50em) {
+    .o-grid--2up .o-grid__item {
+      width: 100%;
+    }
+  }
+
+  @media (min-width: 70em) {
+    .o-grid--2up .o-grid__item {
+      width: calc(50% - 10px);
+    }
+  }
+
+  .s-prose table {
+    background: #fff;
+  }
+
+  .scrollable-area__section-item__inner {
+    margin-bottom: 20px;
+    background-color: #edabba;
+  }
+
+  @media (min-width: 50em) {
+    .scrollable-area__section-item__inner {
+      margin-left: 20px;
+    }
+  }
+
+  .scrollable-area__section-title {
+    padding-top: 20px;
+  }
+
+  .s-prose h2 {
+    font-weight: 900;
+    margin-bottom: 16px;
+  }
+
+  .scrollable-area__navigation--styled-example
+    .scrollable-area__navigation-item:hover {
+    background: #edabba;
+  }
+
+  .scrollable-area__navigation--styled-example
+    .scrollable-area__navigation-item:hover
+    a {
+    color: #000;
+  }
+
+  .scrollable-area__navigation--styled-example
+    .scrollable-area__navigation-item--active
+    a {
+    background: #edabba;
+  }
+</style>
