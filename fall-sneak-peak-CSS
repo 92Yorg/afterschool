@@ -62,4 +62,8 @@
     a {
     background: #edabba;
   }
+
+  .table-container {
+    margin-bottom: 0;
+  }
 </style>
